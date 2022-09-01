@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black
+}
+
+.navBar{
+    list-style: none;
+    display: flex;
+}
+li{
+    width: 130px;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.753);
+}
+.Jobs{
+    min-width: 40%;
+    margin-left: 59px;
+    font-weight: bold;
+    font-size: 25px;
+    /* margin-top: 10px; */
+}
+.navi{
+    margin-top: 23px;
+}
+.buTTon{
+    padding: 8px;
+    width: 112px;
+    font-size: 13px;
+    margin-top: -17px;
+    color: white;
+    border-radius: 10px;
+}
+.register{
+    background-color: rgba(255, 102, 0, 0.886);
+
+}
+.login{
+    background-color: rgb(9, 245, 9);
+}
+
+.hov:hover{
+    color: rgba(255, 102, 0, 0.886) ;
+}
