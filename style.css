@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -146,7 +147,7 @@ form ul li label {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-.firstContain, .secondContain{
+.firstContain, .secondContain, .thirdContain, .fourthContain, .fifthContain, .sixContain, .sevenContain, .eightContain{
   width: 193px;
   height: 113px;
   border-radius: 15px;
@@ -158,15 +159,65 @@ form ul li label {
   font-size: 10px;
 }
 .firstWrapper .firstContain h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 .firstWrapper .secondContain p {
   font-size: 10px;
 }
 .firstWrapper .secondContain h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.firstWrapper .thirdContain p {
+  font-size: 10px;
+}
+.firstWrapper .thirdContain h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.firstWrapper .fourthContain p {
+  font-size: 10px;
+}
+.firstWrapper .fourthContain h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.firstWrapper .fifthContain p {
+  font-size: 10px;
+}
+.firstWrapper .fifthContain h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.firstWrapper .sixContain p {
+  font-size: 10px;
+}
+.firstWrapper .sixContain h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.firstWrapper .sevenContain p {
+  font-size: 10px;
+}
+.firstWrapper .sevenContain h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.firstWrapper .eightContain p {
+  font-size: 10px;
+}
+.firstWrapper .eightContain h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 .dataIcon {
   margin: 15px 0 0px 15px;
@@ -196,6 +247,6 @@ form ul li label {
 .headInGrid {
   position: relative;
   left: 3px;
-  bottom: 31px;
+  bottom: 35px;
   color: rgba(28, 27, 27, 0.911);
 }
