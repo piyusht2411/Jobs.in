@@ -1,47 +1,103 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: black
-}
-
-.navBar{
-    list-style: none;
-    display: flex;
-}
-li{
-    width: 130px;
-    margin-top: 14px;
-    color: rgba(255, 255, 255, 0.753);
-}
-.Jobs{
-    min-width: 40%;
-    margin-left: 59px;
-    font-weight: bold;
-    font-size: 25px;
-    /* margin-top: 10px; */
-}
-.navi{
-    margin-top: 23px;
-}
-.buTTon{
-    padding: 8px;
-    width: 112px;
-    font-size: 13px;
-    margin-top: -17px;
-    color: white;
-    border-radius: 10px;
-}
-.register{
-    background-color: rgba(255, 102, 0, 0.886);
-
-}
-.login{
-    background-color: rgb(9, 245, 9);
+body {
+  background-color: black;
 }
 
-.hov:hover{
-    color: rgba(255, 102, 0, 0.886) ;
+.navBar {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  width: 130px;
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.753);
+}
+.Jobs {
+  min-width: 40%;
+  margin-left: 59px;
+  font-weight: bold;
+  font-size: 25px;
+  /* margin-top: 10px; */
+}
+.navi {
+  margin-top: 23px;
+}
+.buTTon {
+  padding: 8px;
+  width: 112px;
+  font-size: 13px;
+  margin-top: -17px;
+  color: white;
+  border-radius: 10px;
+}
+.register {
+  background-color: rgba(255, 102, 0, 0.886);
+}
+.login {
+  background-color: rgb(9, 245, 9);
+}
+
+.hov:hover {
+  color: rgba(255, 102, 0, 0.886);
+}
+.FirstHeading {
+  color: white;
+}
+.heading {
+  margin-left: 23px;
+  margin-top: 110px;
+}
+.Firstpara {
+  color: rgba(255, 255, 255, 0.694);
+  margin: 0px;
+  font-size: 15px;
+}
+.FirstHeading,
+.Firstpara {
+  margin-left: 20px;
+}
+.bottomHead {
+  background-color: white;
+  height: 80px;
+  width: 479px;
+  border-radius: 8px;
+  margin-left: 66px;
+  margin-top: 24px;
+  padding: 20px;
+}
+.jobFindForm {
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  justify-content: space-around;
+}
+
+input[type="text"] {
+  border-style: none;
+  background-color: transparent;
+  width: 106px;
+}
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 153px;
+  height: 60px;
+  font-weight: bold;
+  
+}
+form ul li {
+  list-style: none;
+  margin: -8px -17px;
+  margin-left: -4px;
+}
+form ul li label {
+  font-weight: bold;
+  height: 3px;
+}
+::placeholder{
+    font-size: 11px;
 }
