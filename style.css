@@ -133,9 +133,6 @@ form ul li label {
   align-items: center;
   margin-top: 103px;
 }
-.giveColorIcon {
-  /* background-color: orange; */
-}
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -147,7 +144,7 @@ form ul li label {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-.firstContain, .secondContain, .thirdContain, .fourthContain, .fifthContain, .sixContain, .sevenContain, .eightContain{
+.firstContain, .secondContain, .thirdContain, .fourthContain, .fifthContain, .sixContain, .sevenContain{
   width: 193px;
   height: 113px;
   border-radius: 15px;
@@ -155,6 +152,17 @@ form ul li label {
   color: black;
   padding: 5px;
 }
+.eightContain{
+  width: 193px;
+  height: 113px;
+  border-radius: 15px;
+  background-color:rgba(255, 102, 0, 0.886) ;
+  color: white;
+  padding: 5px;
+
+}
+
+
 .firstWrapper .firstContain p {
   font-size: 10px;
 }
@@ -211,14 +219,14 @@ form ul li label {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
-.firstWrapper .eightContain p {
-  font-size: 10px;
-}
-.firstWrapper .eightContain h3 {
+.firstWrapper .eightContain h3{
   font-size: 18px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+
+
 }
+
 .dataIcon {
   margin: 15px 0 0px 15px;
   font-size: 35px;
@@ -250,3 +258,29 @@ form ul li label {
   bottom: 35px;
   color: rgba(28, 27, 27, 0.911);
 }
+.firstEight{
+  position: relative;
+  left: 21px;
+  bottom: -15px;
+}
+.secondEight{
+  position: relative;
+  left: 21px;
+  bottom: -18px;
+}
+.thirdEight{
+  position: relative;
+  left: 127px;
+  bottom: 14px;
+
+}
+.fourthEight{
+  position: relative;
+  left: 21px;
+  bottom: 24px;
+}
+.dataIconEight{
+  font-size: 25px;
+  color: white;
+}
+
