@@ -81,14 +81,13 @@ input[type="text"] {
   background-color: transparent;
   width: 115px;
 }
-.GetStarted{
+.GetStarted {
   background-color: black;
   color: white;
   border-radius: 15px;
   width: 138px;
   height: 55px;
   font-weight: bold;
-  
 }
 form ul li {
   list-style: none;
@@ -99,41 +98,104 @@ form ul li label {
   font-weight: bold;
   height: 3px;
 }
-::placeholder{
-    font-size: 11px;
-    
+::placeholder {
+  font-size: 11px;
 }
 /* .wall{
     background-image: url('https://media.istockphoto.com/vectors/dark-red-abstract-blurry-background-vector-id1268618849?k=20&m=1268618849&s=612x612&w=0&h=fUp16V3qFmywZzIK6WL9TAXuuXF1TbGIaiYx82R1HPg=');
     background-size: cover;
 } */
 
-.headline{
+.headline {
   display: flex;
   justify-content: center;
   color: white;
   margin-top: 100px;
 }
-.secondHeading, .thirdHeading{
+.secondHeading,
+.thirdHeading {
   margin-left: 10px;
-  
 }
-.secondHeading{
-  color:rgba(255, 102, 0, 0.886) ;
+.secondHeading {
+  color: rgba(255, 102, 0, 0.886);
   text-decoration: underline;
 }
-.headingPara{
+.headingPara {
   text-align: center;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.694);
 }
 
-.firstWrapper{
+.firstWrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 103px;
 }
-.giveColorIcon{
-  background-color: orange;
+.giveColorIcon {
+  /* background-color: orange; */
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.firstContain, .secondContain{
+  width: 193px;
+  height: 113px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.firstWrapper .firstContain p {
+  font-size: 10px;
+}
+.firstWrapper .firstContain h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.firstWrapper .secondContain p {
+  font-size: 10px;
+}
+.firstWrapper .secondContain h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.dataIcon {
+  margin: 15px 0 0px 15px;
+  font-size: 35px;
+  display: inline;
+  color: orange;
+}
+.firpara {
+  display: inline;
+  margin-left: 10px;
+  position: relative;
+  left: -2px;
+  bottom: 14px;
+  color: rgba(28, 27, 27, 0.911);
+}
+.thipara {
+  position: relative;
+  left: 44px;
+  bottom: 36px;
+  color: rgba(28, 27, 27, 0.911);
+}
+.secpara {
+  position: relative;
+  left: 113px;
+  bottom: 17px;
+}
+.headInGrid {
+  position: relative;
+  left: 3px;
+  bottom: 31px;
+  color: rgba(28, 27, 27, 0.911);
 }
