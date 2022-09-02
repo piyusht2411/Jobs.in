@@ -32,6 +32,7 @@ nav ul li {
   margin-top: -17px;
   color: white;
   border-radius: 10px;
+  border-color: transparent;
 }
 .register {
   background-color: rgba(255, 102, 0, 0.886);
@@ -61,11 +62,11 @@ nav ul li {
 }
 .bottomHead {
   background-color: white;
-  height: 80px;
-  width: 479px;
+  height: 73px;
+  width: 450px;
   border-radius: 8px;
   margin-left: 66px;
-  margin-top: 24px;
+  margin-top: 62px;
   padding: 20px;
 }
 .jobFindForm {
@@ -78,21 +79,21 @@ nav ul li {
 input[type="text"] {
   border-style: none;
   background-color: transparent;
-  width: 106px;
+  width: 115px;
 }
-input[type="submit"] {
+.GetStarted{
   background-color: black;
   color: white;
   border-radius: 15px;
-  width: 153px;
-  height: 60px;
+  width: 138px;
+  height: 55px;
   font-weight: bold;
   
 }
 form ul li {
   list-style: none;
-  margin: -8px -17px;
-  margin-left: -4px;
+  margin: -8px 11px -8px 16px;
+  width: 161px;
 }
 form ul li label {
   font-weight: bold;
@@ -100,4 +101,9 @@ form ul li label {
 }
 ::placeholder{
     font-size: 11px;
+    
 }
+/* .wall{
+    background-image: url('https://media.istockphoto.com/vectors/dark-red-abstract-blurry-background-vector-id1268618849?k=20&m=1268618849&s=612x612&w=0&h=fUp16V3qFmywZzIK6WL9TAXuuXF1TbGIaiYx82R1HPg=');
+    background-size: cover;
+} */
