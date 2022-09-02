@@ -107,3 +107,33 @@ form ul li label {
     background-image: url('https://media.istockphoto.com/vectors/dark-red-abstract-blurry-background-vector-id1268618849?k=20&m=1268618849&s=612x612&w=0&h=fUp16V3qFmywZzIK6WL9TAXuuXF1TbGIaiYx82R1HPg=');
     background-size: cover;
 } */
+
+.headline{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+}
+.secondHeading, .thirdHeading{
+  margin-left: 10px;
+  
+}
+.secondHeading{
+  color:rgba(255, 102, 0, 0.886) ;
+  text-decoration: underline;
+}
+.headingPara{
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.694);
+}
+
+.firstWrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 103px;
+}
+.giveColorIcon{
+  background-color: orange;
+}
