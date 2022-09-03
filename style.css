@@ -385,7 +385,7 @@ form ul li label {
   color: rgba(255, 102, 0, 0.886);
   
 }
-.firstBox{
+.firstBox, .secondBox, .thirdBox{
   border: 4mm solid rgb(115, 112, 112);
   width: 25%;
   height: 230px;
@@ -394,9 +394,35 @@ form ul li label {
   border-radius: 30px;
   margin-left: 40px;
   margin-top: 70px;
+  
 
 }
 .bottomSecond .boxes .firstBox .boxHead{
+  display: inline;
+  font-size: 46px;
+  margin-left: 8px;
+}
+.bottomSecond .boxes .secondBox .boxHead{
+  display: inline;
+  font-size: 46px;
+  margin-left: 8px;
+}
+.bottomSecond .boxes .thirdBox .boxHead{
+  display: inline;
+  font-size: 46px;
+  margin-left: 8px;
+}
+.bottomSecond .boxes2 .firstBox .boxHead{
+  display: inline;
+  font-size: 46px;
+  margin-left: 8px;
+}
+.bottomSecond .boxes2 .secondBox .boxHead{
+  display: inline;
+  font-size: 46px;
+  margin-left: 8px;
+}
+.bottomSecond .boxes2 .thirdBox .boxHead{
   display: inline;
   font-size: 46px;
   margin-left: 8px;
@@ -436,4 +462,14 @@ form ul li label {
   color: rgba(255, 255, 255, 0.694);
   font-size: 10px;
   margin-top: -8px;
+}
+.boxes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxes2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
