@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -144,7 +144,13 @@ form ul li label {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-.firstContain, .secondContain, .thirdContain, .fourthContain, .fifthContain, .sixContain, .sevenContain{
+.firstContain,
+.secondContain,
+.thirdContain,
+.fourthContain,
+.fifthContain,
+.sixContain,
+.sevenContain {
   width: 193px;
   height: 113px;
   border-radius: 15px;
@@ -152,16 +158,14 @@ form ul li label {
   color: black;
   padding: 5px;
 }
-.eightContain{
+.eightContain {
   width: 193px;
   height: 113px;
   border-radius: 15px;
-  background-color:rgba(255, 102, 0, 0.886) ;
+  background-color: rgba(255, 102, 0, 0.886);
   color: white;
   padding: 5px;
-
 }
-
 
 .firstWrapper .firstContain p {
   font-size: 10px;
@@ -169,7 +173,7 @@ form ul li label {
 .firstWrapper .firstContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .firstWrapper .secondContain p {
   font-size: 10px;
@@ -177,7 +181,7 @@ form ul li label {
 .firstWrapper .secondContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .firstWrapper .thirdContain p {
   font-size: 10px;
@@ -185,7 +189,7 @@ form ul li label {
 .firstWrapper .thirdContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .firstWrapper .fourthContain p {
   font-size: 10px;
@@ -193,7 +197,7 @@ form ul li label {
 .firstWrapper .fourthContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .firstWrapper .fifthContain p {
   font-size: 10px;
@@ -201,7 +205,7 @@ form ul li label {
 .firstWrapper .fifthContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .firstWrapper .sixContain p {
   font-size: 10px;
@@ -209,7 +213,7 @@ form ul li label {
 .firstWrapper .sixContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .firstWrapper .sevenContain p {
   font-size: 10px;
@@ -217,14 +221,12 @@ form ul li label {
 .firstWrapper .sevenContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.firstWrapper .eightContain h3{
+.firstWrapper .eightContain h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-
-
+  font-family: "Roboto", sans-serif;
 }
 
 .dataIcon {
@@ -258,29 +260,118 @@ form ul li label {
   bottom: 35px;
   color: rgba(28, 27, 27, 0.911);
 }
-.firstEight{
+.firstEight {
   position: relative;
   left: 21px;
   bottom: -15px;
 }
-.secondEight{
+.secondEight {
   position: relative;
   left: 21px;
   bottom: -18px;
 }
-.thirdEight{
+.thirdEight {
   position: relative;
   left: 127px;
   bottom: 14px;
-
 }
-.fourthEight{
+.fourthEight {
   position: relative;
   left: 21px;
   bottom: 24px;
 }
-.dataIconEight{
+.dataIconEight {
   font-size: 25px;
   color: white;
 }
+.advertisment{
+  height: 550px;
+  width: 1100px;
+  background-color: white;
+  color: black;
+  padding: 500px;
+}
+.aboutUs{
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 140px;
 
+}
+.aboutusHead1, .aboutusHead{
+  font-size: 25px;
+}
+.aboutusHead{
+  margin-left: 10px;
+  color: rgba(255, 102, 0, 0.886);
+  
+}
+
+.containerBox .containerHead h2{
+  color:rgba(255, 102, 0, 0.886) ;
+  font-family: "Roboto", sans-serif;
+}
+.containerBox .containerHead p{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  margin-top: 20px;
+}
+.containerBox{
+  margin: 90px 0px 0px 49px;
+}
+.conatinerMiddle{
+  display: flex;
+  color: white;
+}
+.ro{
+  display: flex;
+  color: rgb(255, 183, 0);
+}
+
+.ro{
+  font-size: 70px;
+  color: rgb(255, 183, 0);
+}
+.containerBox .conatinerMiddle .rocket h4{
+  position: relative;
+  left: 87px;
+  bottom: 78px;
+}
+.containerBox .conatinerMiddle .rocket p{
+  position: relative;
+  left: 87px;
+  bottom: 78px;
+  width: 70%;
+  color: rgba(255, 255, 255, 0.694);
+}
+.containerBox .conatinerMiddle .bulb h4{
+  position: relative;
+  left: 87px;
+  bottom: 78px;
+}
+.containerBox .conatinerMiddle .bulb p{
+  position: relative;
+  left: 87px;
+  bottom: 78px;
+  width: 70%;
+  color: rgba(255, 255, 255, 0.694);
+}
+.bulb{
+  margin: 0 285px 0 0;
+}
+.conatinerMiddle{
+  margin: 81px 0 0 0;
+}
+.containerSide{
+ 
+  height: 400px;
+  /* width: 132px; */
+  display: flex;
+  position: relative;
+  left: 769px;
+  bottom: 430px;
+}
+.containerHead, .conatinerMiddle{
+  width: 70%;
+}
