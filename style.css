@@ -375,3 +375,65 @@ form ul li label {
 .containerHead, .conatinerMiddle{
   width: 70%;
 }
+.bottomSecond{
+  margin-top: -330px;
+}
+.bottomSecond h3{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 102, 0, 0.886);
+  
+}
+.firstBox{
+  border: 4mm solid rgb(115, 112, 112);
+  width: 25%;
+  height: 230px;
+  color: rgba(255, 255, 255, 0.694);
+  background-color: rgb(65, 63, 63);
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-top: 70px;
+
+}
+.bottomSecond .boxes .firstBox .boxHead{
+  display: inline;
+  font-size: 46px;
+  margin-left: 8px;
+}
+.boxPara{
+    position: relative;
+    left: 15px;
+    bottom: 47px;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 90%;
+}
+.use{
+  position: relative;
+  border: 4px solid rgba(255, 102, 0, 0.886);
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  left: 160px;
+  bottom: 44px;
+  color: rgba(255, 102, 0, 0.886);
+  border-radius: 21px;
+  text-align: center;
+  padding: 5px;
+}
+.boxHead2{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -36px;
+
+}
+.boxPara2{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.694);
+  font-size: 10px;
+  margin-top: -8px;
+}
