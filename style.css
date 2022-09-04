@@ -638,7 +638,7 @@ justify-content: space-around;
   font-size: 12px;
   margin-top: -8px;
 }
-.blogBox{
+.blogBox, .blogBox2{
   display: flex;
   justify-content: space-around;
   align-items: center;
