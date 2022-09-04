@@ -588,3 +588,58 @@ justify-content: space-around;
 .empty{
   min-height: 60px;
 }
+.bottom h3{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 102, 0, 0.886);
+  
+}
+.bottom{
+  margin-top: 116px;
+}
+.firstblog h3{
+  color: rgba(255, 204, 0, 0.886);
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+}
+.secondblog h3{
+  color: rgba(255, 204, 0, 0.886);
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+}
+.thirdblog h3{
+  color: rgba(255, 204, 0, 0.886);
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+}
+.firstblog, .secondblog, .thirdblog{
+  background-color: white;
+  color: black;
+  width: 25%;
+  height: 130px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.firstblog p{
+  font-size: 12px;
+  margin-top: -8px;
+}
+.secondblog p{
+  font-size: 12px;
+  margin-top: -8px;
+}
+.thirdblog p{
+  font-size: 12px;
+  margin-top: -8px;
+}
+.blogBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
