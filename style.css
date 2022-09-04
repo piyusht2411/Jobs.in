@@ -643,3 +643,93 @@ justify-content: space-around;
   justify-content: space-around;
   align-items: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    margin-top: 110px;
+}
+.bottom-up{
+    width: 94vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.2em;
+ cursor: pointer;
+    border-radius: 10px;
+    z-index: 4;
+}
+.index h1{
+    color: rgb(250,95,26);
+    font-family: 'Ubuntu', sans-serif;
+}
+.content span{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btmImage{
+    /* height: 30px; */
+    width: 30px;
+    transition: transform 0.5s ease-in-out;
+ 
+}
+.btmTransition{
+    transition: translate 3s ease-in-out;
+}
+
+.bottom-last-one{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    width: 95vw;
+    height: auto;
+    margin: 15px 0;
+    
+   
+}
+.btmparag{
+    opacity: 0;
+}
+.toggle{
+    cursor: pointer;
+}
+.bottom-down{
+    background-color: rgb(196,196,196);
+    height:0vh;
+    width: 92vw;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: height 0.5s ease-in-out;
+
+}
+
+
+.bottom-down p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.bottomLastHead{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 102, 0, 0.886);
+  margin-top: 120px;
+
+}
